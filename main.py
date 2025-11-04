@@ -33,7 +33,7 @@ if fl is not None:
         df = pd.read_excel(fl)
 else:
     # Fallback to default file path
-    default_path = r"C:\Users\ashu9\Desktop\sreamlit project\Sample Superstore.csv"
+    default_path = r"SampleSuperstore.csv"
     if os.path.exists(default_path):
         df = pd.read_csv(default_path, encoding="ISO-8859-1")
     else:
